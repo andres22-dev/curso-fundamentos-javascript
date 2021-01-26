@@ -27,7 +27,8 @@ function obtenerPersonaje(id){
 
 }
 
-
+//Para poder utilizar await a la funcion debemos marcarla como asincrona
+// Poniendole antes de la eclaracion de la funcion la palabra async
 async function obtenerPersonajes(){
     let ids = [1,2,3,4,5,6,7,8];
 
